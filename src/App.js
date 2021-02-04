@@ -6,7 +6,6 @@ class WelcomeComponent extends React.Component {
   }
 }
 const App = () => {
-  let name = "Ronald";
   return <WelcomeComponent name="Ronald" />;
 };
 export default App;
